@@ -106,8 +106,6 @@ $last-child-float: $opposite-direction !default;
   @if $position or $push or $pull {
     position: relative;
   }
-  
-  background-color: red;
 
   // If collapsed, get rid of gutter padding
   @if $collapse {
